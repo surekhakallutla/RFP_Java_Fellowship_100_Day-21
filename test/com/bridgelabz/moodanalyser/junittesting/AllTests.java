@@ -5,7 +5,8 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ TestingMoodAnalyserWithMessageAsParameter.class, TestingMoodAnalyserWithNoParameters.class })
+@SuiteClasses({ TestingMoodAnalyserWithMessageAsParameterToConstructor.class,
+		TestingMoodAnalyserWithMessageAsParametertoMethod.class })
 public class AllTests {
 
 }
